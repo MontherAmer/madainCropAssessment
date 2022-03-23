@@ -4,7 +4,7 @@ body {
   height: 99vh;
   padding: 0px;
   margin: 0px;
-  overflow: hidden;
+  overflow: auto;
 }
 
 body {
