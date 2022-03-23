@@ -2,7 +2,7 @@ exports.handlePaginateUI = ({ list, active }) => {
   let cardsDiv = document.querySelector('#paginate');
   cardsDiv.innerHTML = '';
 
-  let pagesNumber = new Array(Math.floor(list.length / 10)).fill(0);
+  let pagesNumber = new Array(Math.ceil(list.length / 10)).fill(0);
 
   pagesNumber.map((item, i) => {
     let newDiv = document.createElement('span');
