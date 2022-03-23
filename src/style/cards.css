@@ -2,6 +2,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: auto;
+  overflow-y: auto;
 }
 
 .card {
@@ -21,4 +23,18 @@
 .card-cat {
   display: flex;
   align-items: flex-end;
+}
+
+@media only screen and (max-width: 425px) {
+  #cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  .card {
+    min-width: 320px;
+  }
 }

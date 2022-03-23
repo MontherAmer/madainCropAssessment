@@ -1,6 +1,9 @@
 .cat-container {
   display: flex;
   justify-content: space-evenly;
+  height: 80px;
+  align-items: center;
+  border-bottom: 2px solid #04aa6d;
 }
 
 .cat {
@@ -12,4 +15,10 @@
   line-height: 1.5;
   font-size: 16px;
   font-weight: bold;
+}
+
+@media only screen and (max-width: 425px) {
+  .cat-container {
+    height: 170px;
+  }
 }
