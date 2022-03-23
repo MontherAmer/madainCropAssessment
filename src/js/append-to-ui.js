@@ -1,4 +1,4 @@
-exports.appendToUi = (list) => {
+exports.appendToUi = ({ list }) => {
   let cardsDiv = document.querySelector('#cards');
   cardsDiv.innerHTML = '';
 
