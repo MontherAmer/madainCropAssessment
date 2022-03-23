@@ -6,9 +6,6 @@
   "dependencies": {
     "browserify": "^17.0.0"
   },
-  "devDependencies": {
-    "nodemon": "^2.0.15"
-  },
   "scripts": {
     "build": "browserify src/js/index.js > src/js/bundle.js"
   },

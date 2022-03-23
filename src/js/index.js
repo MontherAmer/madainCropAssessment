@@ -29,6 +29,7 @@ let handlePagination = (e) => {
   handlePaginateUI({ list: subStore, active: page });
 };
 
+// category listners
 document.getElementById('category1').addEventListener('click', () => filtercategory('category1'));
 document.getElementById('category2').addEventListener('click', () => filtercategory('category2'));
 document.getElementById('category3').addEventListener('click', () => filtercategory('category3'));
