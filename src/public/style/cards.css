@@ -1,0 +1,24 @@
+#cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  justify-content: space-around;
+  border: 2px solid #eee;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 24px 0px;
+  min-width: 450px;
+}
+
+.name-container {
+  display: flex;
+}
+
+.card-cat {
+  display: flex;
+  align-items: flex-end;
+}

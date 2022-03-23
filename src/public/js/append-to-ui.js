@@ -17,8 +17,6 @@ exports.appendToUi = (list) => {
         </div>
       </div>`;
 
-    console.log('cardsDiv ', cardsDiv);
-
     cardsDiv.appendChild(newDiv);
   });
 };

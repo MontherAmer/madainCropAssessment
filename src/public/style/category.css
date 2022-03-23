@@ -1,0 +1,15 @@
+.cat-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.cat {
+  background-color: #04aa6d;
+  color: #fff;
+  border-radius: 10px;
+  padding: 4px 8px;
+  cursor: pointer;
+  line-height: 1.5;
+  font-size: 16px;
+  font-weight: bold;
+}

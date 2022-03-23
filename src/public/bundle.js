@@ -12,7 +12,7 @@ let fetchDataFromAPI = async () => {
   store = data;
 
   console.log('MY DATA: ', store);
-  showTheUI(data);
+  appendToUi(data);
 };
 
 fetchDataFromAPI();
@@ -62,7 +62,7 @@ exports.appendToUi = (list) => {
         </div>
       </div>`;
 
-    console.log('cardsDiv ', cardsDiv);
+    console.log('cardsDiv ssssssssssssssssssssss');
 
     cardsDiv.appendChild(newDiv);
   });
