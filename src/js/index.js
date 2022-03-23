@@ -1,4 +1,4 @@
-const { appendToUi } = require('./js/append-to-ui');
+const { appendToUi } = require('./append-to-ui');
 
 let fetchDataFromAPI = async () => {
   let response = await fetch(
