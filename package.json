@@ -5,6 +5,7 @@
   "main": "src/index.js",
   "dependencies": {
     "axios": "^0.26.1",
+    "browserify": "^17.0.0",
     "cookie-parser": "^1.4.6",
     "express": "^4.17.3",
     "path": "^0.12.7"
@@ -14,6 +15,7 @@
   },
   "scripts": {
     "start": "nodemon src/index.js",
+    "build": "browserify src/public/index.js > src/public/bundle.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

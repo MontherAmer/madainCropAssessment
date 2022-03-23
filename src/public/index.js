@@ -1,3 +1,5 @@
+const { appendToUi } = require('./js/append-to-ui');
+
 let store = [];
 
 let fetchDataFromAPI = async () => {
