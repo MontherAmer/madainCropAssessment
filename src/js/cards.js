@@ -7,7 +7,7 @@ exports.appendCardsToUI = ({ list }) => {
 
     newDiv.innerHTML = `
       <div class="card">
-        <span class=""> ${item.fname.charAt(0)} ${item.lname.charAt(0)} </span>
+        <span class="card-image"> ${item.fname.charAt(0)} ${item.lname.charAt(0)} </span>
         <div class="name-container">
           <p>${item.fname} &nbsp;</p>
           <p>${item.lname}</p>

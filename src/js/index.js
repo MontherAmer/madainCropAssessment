@@ -33,7 +33,7 @@ document.getElementById('category1').addEventListener('click', () => filtercateg
 document.getElementById('category2').addEventListener('click', () => filtercategory('category2'));
 document.getElementById('category3').addEventListener('click', () => filtercategory('category3'));
 
-// this is the only way works for litning for pages click
+// this is the only way works for litning on page click
 setInterval(() => {
   document.getElementById('page1').addEventListener('click', () => handlePagination('page1'));
   document.getElementById('page2').addEventListener('click', () => handlePagination('page2'));
